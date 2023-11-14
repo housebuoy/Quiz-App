@@ -1,0 +1,48 @@
+
+.container1{
+  border: 3px solid black; 
+  border-radius: 50px;
+  width:60vw;
+  height: vh;
+  padding:80px;
+  display: none;
+  background-color: #ffebcde8;
+}
+
+input{
+   
+    height: 70px;
+    width: 20px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px 12px #ffff,
+                inset 5px 5px 12px rgba(0,0,0, .16,);
+    border: none;
+    border-radius: 30px;
+    color: rgb(158, 34, 34);
+    font-size: 70px;
+    text-align: end;
+    margin: auto;
+    margin-top: 10px;
+    
+}  
+
+
+
+
+input:hover{
+    cursor: pointer;
+}
+
+button{
+    margin-top:80px ;
+    background-color: #065f19;
+    color: aqua;
+    width: 10vw;
+    height: 4vw;
+}
+button:hover{
+    background-color: #063d5f;
+    color: white;
+    transition: 0.3s ease-in-out; 
+    cursor:pointer;
+}   
